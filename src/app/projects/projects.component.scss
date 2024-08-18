@@ -1,0 +1,25 @@
+/* Container for the entire projects section */
+.pf-container {
+  @apply pf-flex pf-flex-col pf-items-center ; /* Center content, add padding */
+}
+
+
+/* Image styling within the card */
+.pf-image {
+  @apply pf-w-full pf-h-auto pf-object-cover pf-rounded-t-lg; /* Full width, maintain aspect ratio, cover image, rounded top corners */
+}
+
+/* Description styling */
+.pf-description {
+  @apply pf-text-center ; /* Center text, padding, larger text, relaxed line spacing */
+}
+
+/* Footer styling for buttons */
+.pf-footer {
+  @apply pf-flex pf-justify-center pf-gap-4 pf-py-4; /* Flexbox for buttons, centered, with spacing anda padding */
+}
+
+/* Button styling */
+.pf-button {
+  @apply pf-px-4 pf-py-2 pf-rounded pf-bg-blue-500 pf-text-white ; /* Padding, rounded corners, background color, text color, hover effect */
+}

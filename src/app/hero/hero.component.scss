@@ -1,0 +1,15 @@
+.container {
+  @apply pf-flex pf-flex-col pf-text-white pf-p-0 pf-pb-48-px ;
+}
+
+.heading {
+  @apply pf-text-4xl pf-font-bold pf-mb-8-px;
+}
+
+.role {
+  @apply pf-text-xl pf-mb-16-px;
+}
+.bio {
+  @apply pf-text-gray-300;
+
+}

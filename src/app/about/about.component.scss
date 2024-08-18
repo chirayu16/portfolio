@@ -1,0 +1,18 @@
+// Tailwind classes using prefix 
+.bio {
+    @apply pf-font-sans pf-text-gray-200 pf-pt-114-px;
+    
+    p {
+      @apply pf-mb-24-px; // Tailwind utility for margin-bottom
+    }
+  
+    .highlight {
+      @apply pf-font-bold pf-text-white;
+    }
+  }
+#about {
+    @apply pf-mb-90-px;
+}
+  
+ 
+  

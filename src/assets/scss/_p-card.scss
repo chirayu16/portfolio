@@ -1,0 +1,9 @@
+.p-card {
+    &.project-card {
+        @apply pf-bg-slate-800 pf-text-white pf-rounded-lg pf-shadow-lg;
+
+        &:hover {
+            @apply pf-bg-card-hover pf-shadow-project-card-shadow;
+        }
+      }
+}

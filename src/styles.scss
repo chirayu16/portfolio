@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/saga-blue/theme.css";
+@import "primeng/resources/primeng.min.css";
+@import "primeicons/primeicons.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import "assets/scss/p-card";
