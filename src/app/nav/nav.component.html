@@ -1,8 +1,8 @@
 <nav class="pf-text-gray-400 pf-space-y-4">
-    <div *ngFor="let item of navItems" 
-         class="pf-flex pf-items-center pf-cursor-pointer pf-hover:text-white pf-transition-colors pf-duration-300"
-         (click)="scrollTo(item.id)">
-      <div class="w-12 h-px bg-gray-600 mr-4"></div>
-      <span class="pf-uppercase pf-text-sm pf-tracking-wider">{{ item.label }}</span>
-    </div>
-  </nav>
+  <div *ngFor="let item of navItems"
+       class="pf-flex pf-items-center pf-cursor-pointer pf-hover:text-white pf-transition-colors pf-duration-300 nav-container"
+       (click)="handleNavigation(item)">
+    <div class="w-12 h-px bg-gray-600 mr-4"></div>
+    <span class="pf-uppercase pf-text-sm pf-tracking-wider">{{ item.label }}</span>
+  </div>
+</nav>
