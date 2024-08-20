@@ -5,3 +5,9 @@
 .nav-2 {
     @apply pf-flex pf-items-center;
 }
+
+.nav-container {
+    &:hover{
+        @apply pf-text-gray-100;
+    }
+}

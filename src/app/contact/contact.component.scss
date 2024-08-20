@@ -1,3 +1,51 @@
 .icon {
     @apply pf-text-2xl;
   }
+
+.mail {
+  @apply pf-text-gray-600 pf-transition-colors pf-duration-300;
+    
+  &:hover{
+    @apply  pf-text-gray-800;
+  }
+}
+
+.x {
+  @apply pf-text-blue-400  pf-transition-colors pf-duration-300;
+
+  &:hover{
+    @apply  pf-text-blue-600;
+  }
+}
+
+.linkedin {
+  @apply pf-text-blue-700 pf-transition-colors pf-duration-300;
+
+  &:hover{
+    @apply  pf-text-blue-900;
+  }
+}
+
+.github {
+  @apply pf-text-gray-600 pf-transition-colors pf-duration-300;
+
+  &:hover{
+    @apply  pf-text-gray-700;
+  }
+}
+
+.insta {
+  @apply pf-text-pink-500 pf-transition-colors pf-duration-300;
+
+  &:hover{
+    @apply  pf-text-pink-700;
+  }
+}
+
+.fb {
+  @apply pf-text-blue-600 pf-transition-colors pf-duration-300;
+
+  &:hover{
+    @apply  pf-text-blue-800;
+  }
+}
