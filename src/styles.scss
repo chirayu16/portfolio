@@ -9,3 +9,8 @@
 
 
 @import "assets/scss/p-card";
+
+body{
+    @apply pf-bg-slate-900;
+    @apply pf-font-inter;    
+}

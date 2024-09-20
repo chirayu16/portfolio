@@ -1,7 +1,32 @@
-  .home-bg {
-    @apply pf-bg-slate-900;
-  }
+  // .home-bg {
+  //   @apply pf-bg-slate-900;
+  // }
   
   .portfolio-joystick {
     @apply pf-sticky pf-top-0 pf-h-full pf-pr-90-px pf-w-2/5 pf-pt-90-px;
+  }
+
+  .parent-container {
+
+    @apply pf-flex pf-flex-row pf-justify-between pf-gap-2 pf-px-90-px;
+
+    .child-container1 {
+      @apply pf-flex pf-flex-col pf-justify-start pf-items-start portfolio-joystick;
+    }
+
+    .child-container2 {
+      @apply pf-flex pf-flex-col pf-mr-90-px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .parent-container {
+      @apply pf-flex-col pf-px-24-px pf-pt-48-px;
+
+
+      .child-container1 {
+        @apply pf-pr-0 pf-pt-0 pf-static pf-w-full ;
+      }
+    }
   }
