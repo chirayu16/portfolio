@@ -1,15 +1,15 @@
 .container {
-  @apply pf-flex pf-flex-col pf-text-white pf-p-0 pf-pb-48-px ;
+  @apply pf-flex pf-flex-col pf-text-slate-200 pf-p-0 sm:pf-pb-48-px  ;
 }
 
 .heading {
-  @apply pf-text-4xl pf-font-bold pf-mb-8-px;
+  @apply pf-text-4xl pf-font-bold pf-mb-8-px ;
 }
 
 .role {
-  @apply pf-text-xl pf-mb-16-px;
+  @apply pf-text-xl pf-mb-16-px pf-mt-12-px;
 }
 .bio {
-  @apply pf-text-gray-300;
+  @apply pf-text-gray-300 pf-max-w-xs;
 
 }

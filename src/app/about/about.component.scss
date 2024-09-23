@@ -1,5 +1,5 @@
 .bio {
-    @apply  pf-text-gray-200 pf-pt-90-px;
+    @apply  pf-text-gray-200 sm:pf-pt-90-px;
     
     p {
       @apply pf-my-24-px;
@@ -14,12 +14,5 @@
     @apply pf-mb-90-px;
 }
 
-.about-title {
-  @apply pf-text-2xl;   
-  @apply pf-rounded;
-  @apply pf-mb-32-px;
-}
 
-
- 
   
