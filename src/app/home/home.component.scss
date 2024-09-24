@@ -15,7 +15,7 @@
     }
 
     .child-container2 {
-      @apply pf-flex pf-flex-col pf-mr-90-px;
+      @apply pf-flex pf-flex-col pf-mr-0 sm:pf-mr-90-px;
     }
   }
 
