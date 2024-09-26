@@ -13,9 +13,9 @@ export class NavComponent {
 
   navItems = [
     { label: 'ABOUT', id: 'about' },
-    { label: 'CONTACT', id: 'contact', url: 'https://form.jotform.com/242323950402447' },
+    { label: 'EXPERIENCE', id: 'experience' },
     { label: 'PROJECTS', id: 'projects' },
-    { label: 'RESUME', id: 'resume', url: 'https://drive.google.com/file/d/1-fDMymbAkpvR7OlnEaWFwxl9BxtE3nYO/view?usp=sharing' }
+    { label: 'RESUME', id: 'resume', url: '../../assets/images/Chirayu_Frontend.pdf' }
     
   ];
 
