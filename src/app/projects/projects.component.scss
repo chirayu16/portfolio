@@ -1,23 +1,35 @@
-.pf-container {
-  @apply pf-flex pf-flex-row pf-gap-4 ;
-}
+.projects{
+  @apply pf-flex pf-flex-col md:pf-flex-row pf-gap-4 md:pf-mb-48-px md:hover:pf-bg-slate-800/50 md:pf--ml-24-px md:pf-px-24-px pf-py-5 md:pf-mt-10 pf-rounded-lg md:hover:pf-shadow-lg;
 
-.pf-p-card {
-  @apply pf-w-full pf-h-full pf-max-w-2xl pf-mb-24-px  ;
-}
+  .image{
+      @apply pf-flex-shrink-0 pf-rounded pf-border-2 pf-border-slate-200/10 pf-transition group-hover:pf-border-slate-200/30  sm:pf-translate-y-1 pf-w-32 pf-h-16;
+  }
 
-.pf-image {
-  @apply pf-w-full pf-h-auto pf-object-cover pf-rounded-t-lg; 
-}
+  .role-container{
+      @apply pf-flex pf-flex-col;
 
-.pf-description {
-  @apply pf-text-left pf-pt-4-px ; 
-}
+      .role-company{
+          @apply pf-flex pf-flex-col pf-leading-snug pf-text-slate-200  hover:pf-text-teal-300 focus-visible:pf-text-teal-300;
 
-.pf-footer {
-  @apply pf-flex pf-justify-center pf-gap-4 pf-py-4-px;
-}
+          .arrow-attached{
+              @apply pf-flex;
+          }
+      }
 
-.pf-button {
-  @apply pf-px-4 pf-pb-2 pf-rounded pf-bg-blue-500 pf-text-white ;
+      .paragraph{
+          @apply pf-mt-2 pf-text-sm pf-leading-normal pf-text-slate-400;
+      }
+      .buttons{
+          @apply pf-mt-2  pf-flex pf-flex-wrap;
+
+          .list{
+              @apply pf-mr-1.5 pf-mt-2
+          }
+
+          .btn{
+              @apply pf-flex pf-items-center pf-rounded-full pf-bg-teal-400/10 pf-px-3 pf-py-1 pf-text-xs pf-font-medium pf-leading-5 pf-text-teal-300; 
+          }
+      }
+
+  }
 }

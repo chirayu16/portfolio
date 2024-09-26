@@ -1,5 +1,5 @@
 .experience{
-        @apply pf-flex pf-flex-col pf-gap-4 pf-mb-48-px md:hover:pf-bg-slate-800/50 md:pf--ml-24-px md:pf-px-24-px pf-py-5 pf-rounded-lg md:hover:pf-shadow-lg;
+        @apply pf-flex pf-flex-col md:pf-flex-row pf-gap-4 pf-mb-48-px md:hover:pf-bg-slate-800/50 md:pf--ml-24-px md:pf-px-24-px pf-py-5 pf-rounded-lg md:hover:pf-shadow-lg;
 
         .time{
             @apply pf-flex-shrink-0 pf-text-xs pf-font-semibold pf-uppercase pf-tracking-wide pf-text-slate-500;

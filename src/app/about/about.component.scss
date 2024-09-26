@@ -1,5 +1,5 @@
 .bio {
-    @apply  pf-text-slate-200 ;
+    @apply  pf-text-slate-400 ;
     
     p {
       @apply pf-my-24-px;
@@ -7,7 +7,7 @@
     }
   
     .highlight {
-      @apply pf-font-bold pf-text-white;
+      @apply pf-font-bold pf-text-slate-200 sm:hover:pf-text-teal-300;
     }
   }
 #about {
