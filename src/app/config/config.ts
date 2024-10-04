@@ -1,3 +1,1 @@
-export const targetConfig = {"TARGET":"Chirayu", "NAME": "Chirayu P", "PROJECTS": [{
-    "PROJECT_NAME": ""
-}, {}]};
+export const targetConfig = {"TARGET":"Chirayu", "NAME": "Palguna M S"};
